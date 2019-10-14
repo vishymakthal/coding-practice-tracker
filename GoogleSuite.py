@@ -17,8 +17,6 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets',
           'https://www.googleapis.com/auth/tasks'
            ]
 
-# The ID and range of a sample spreadsheet.
-SHEET_ID = os.getenv("SHEET_ID")
 creds = None
 # The file token.pickle stores the user's access and refresh tokens, and is
 # created automatically when the authorization flow completes for the first
@@ -42,7 +40,6 @@ if not creds or not creds.valid:
 def get_sheets_service():
     return build('sheets', 'v4', credentials=creds).spreadsheets()
     
-
 def get_calendar_service():
     return build('calendar','v3',credentials=creds).events()
 
