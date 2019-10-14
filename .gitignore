@@ -1,0 +1,6 @@
+*.pyc
+*.env
+*.pickle
+*.json
+
+.vscode
