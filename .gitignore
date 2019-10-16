@@ -1,3 +1,4 @@
+cpt_env
 *.pyc
 *.env
 *.pickle

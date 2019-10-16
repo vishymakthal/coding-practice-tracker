@@ -2,8 +2,6 @@ from __future__ import print_function
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
-from httplib2 import Http
-from oauth2client import file, client, tools
 from dotenv import load_dotenv
 import os
 import pickle
