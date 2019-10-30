@@ -52,7 +52,5 @@ def main():
                 create_reminder_event(tasks, task_list, item_str)
                 time.sleep(0.1)
 
-        print('Items due: ', items_due)
-    
 if __name__ == '__main__':
     main()
