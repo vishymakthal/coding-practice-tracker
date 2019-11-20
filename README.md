@@ -14,7 +14,7 @@ the date I first solved them, and the subsequent dates to review them. Whenever 
 Here's an example of a few problems with initial solved dates. The review dates are automatically populated in the spreadsheet.
 
 <p align="center">
-  <img width="460" height="300" src="/images/problems.png">
+  <img width="650" height="300" src="/images/problems.png">
 </p>
 
 And here's an example of a reminder that gets placed on my calendar on a review day.
